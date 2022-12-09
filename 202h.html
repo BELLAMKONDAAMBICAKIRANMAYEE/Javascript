@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+      function showMe(){
+      	var s=document.getElementsByTagName("li");
+      	var i;
+      	console.log(s);
+      	console.log("li values are"+s[3].innerHTML);
+      	for(i=0;i<s.length;i++)
+      		console.log(s[i].innerHTML)
+      }
+	</script>
+</head>
+<body>
+<h1>we are going to see about tag name propert in todays seddion</h1>
+
+	<ul>
+		<li>Javscript</li>
+		<li>HTML</li>
+		<li>Css</li>
+		<li>ReactJS</li>
+		<button onclick="showMe()">Submit</button>
+</body>
+</html>

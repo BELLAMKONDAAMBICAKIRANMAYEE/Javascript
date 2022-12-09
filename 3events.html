@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function iamChanging(){
+       console.log("it is change event")
+	}
+	function keyDownInput(){
+       prompt("It is keydown");
+	}
+</script>
+</head>
+<body>
+<input type="text" placeholder="about onchange" onchange="iamChanging()"/>
+<input type="text" placeholder="about onkeydown" onkeydown="keyDownInput()"/>
+</body>
+</html>
